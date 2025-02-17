@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1 class="heading"><u><span class="span">R</span>ock-<span class="span">P</span>aper-<span class="span">S</span>cissor</h1></u>
+        <div class="btn-div">
+            <button onclick="playerchoice('rock')" id="rock">👊</button>
+            <button onclick="playerchoice('paper')" id="paper">✋</button>
+            <button onclick="playerchoice('scissor')" id="scissor">✌️</button>
+        </div>
+        <div class="wins">
+            <h2 class="same" id="wins">Wins: 0</h2>
+            <h2 class="same" id='lose'>Loses: 0</h2>
+            <h2 class="same" id="tie">Tie:0</h2>
+        </div>
+        <div  id="personresult"></div>
+        <div  id="computerresult"></div>
+        <div id="result"></div>
+        <button class="rstbtn" onclick="reset()">Reset</button>
+        <footer>
+            <p>&copy; 2025 <strong>naga_sai_23</strong>. All rights reserved.</p>
+            <p>Designed and developed by <strong>NVSK</strong>.</p>
+        </footer>
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
